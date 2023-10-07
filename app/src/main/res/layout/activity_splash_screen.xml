@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/fullscreenBackgroundColor"
+    android:theme="@style/ThemeOverlay.Loansimulation.FullscreenContainer"
+    tools:context=".SplashScreenActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <RelativeLayout android:id="@+id/content_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+
+
+        <RelativeLayout android:id="@+id/page_splah_screen_ek1"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <View   android:id="@+id/_bg__splah_screen_ek2"
+                android:background="@drawable/_bg__splah_screen_ek2_shape"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView android:id="@+id/__img___freebg_splah_screen"
+                android:src="@drawable/__img___freebg_splah_screen"
+                android:contentDescription="__img___freebg_splah_screen"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+<!--            <ImageView android:id="@+id/vector"-->
+<!--                android:src="@drawable/vector"-->
+<!--                android:contentDescription="vector"-->
+<!--                android:layout_marginStart="55dp"-->
+<!--                android:layout_marginTop="162dp"-->
+<!--                android:layout_width="249dp"-->
+<!--                android:layout_height="236dp" />-->
+
+<!--            <ImageView android:id="@+id/untitled_1_1"-->
+<!--                android:src="@drawable/untitled_1_1"-->
+<!--                android:contentDescription="untitled_1_1"-->
+<!--                android:layout_marginStart="107dp"-->
+<!--                android:layout_marginTop="190dp"-->
+<!--                android:layout_width="145dp"-->
+<!--                android:layout_height="129dp" />-->
+
+<!--            <TextView android:id="@+id/kalkulator_kredit"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textSize="24sp"-->
+<!--                android:textColor="@color/kalkulator_kredit_color"-->
+<!--                android:layout_marginLeft="86dp"-->
+<!--                android:layout_marginTop="545dp"-->
+<!--                android:layout_width="207.4dp"-->
+<!--                android:layout_height="39.4dp"-->
+<!--                android:text="@string/kalkulator_kredit_string"-->
+<!--                />-->
+
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>
