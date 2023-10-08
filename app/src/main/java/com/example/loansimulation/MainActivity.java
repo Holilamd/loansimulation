@@ -2,6 +2,7 @@ package com.example.loansimulation;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -42,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         installmentInterest = findViewById(R.id.installmentInterest);
         totalInstallment = findViewById(R.id.totalInstallment);
         btnLoanCal = findViewById(R.id.btnLoanCal);
-
+        btnLoanCal.setBackgroundColor(Color.parseColor("#4FB262"));
         btnLoanCal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
