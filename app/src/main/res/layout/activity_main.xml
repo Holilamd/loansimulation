@@ -1,121 +1,3 @@
-<!--<?xml version="1.0" encoding="utf-8"?>-->
-<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
-<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
-<!--    xmlns:tools="http://schemas.android.com/tools"-->
-<!--    android:layout_width="match_parent"-->
-<!--    android:layout_height="match_parent"-->
-<!--    android:background="#66938F"-->
-<!--    tools:context=".MainActivity">-->
-<!--    <EditText-->
-<!--        android:id="@+id/interes_rate"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:ems="10"-->
-<!--        android:inputType="numberDecimal"-->
-<!--        android:textSize="14sp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.894"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintVertical_bias="0.225" />-->
-
-<!--    <TextView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Principal (IDR)"-->
-<!--        android:textSize="16sp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.047"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintVertical_bias="0.071" />-->
-
-<!--    <TextView-->
-<!--        android:id="@+id/textView"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Tenor (Monthly)"-->
-<!--        android:textSize="16sp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.044"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintVertical_bias="0.161" />-->
-
-<!--    <TextView-->
-<!--        android:id="@+id/textView2"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Rate (%/Year)"-->
-<!--        android:textSize="16sp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.052"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintVertical_bias="0.238" />-->
-
-<!--    <EditText-->
-<!--        android:id="@+id/principal"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:ems="10"-->
-<!--        android:inputType="number"-->
-<!--        android:textSize="14sp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.894"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintVertical_bias="0.06" />-->
-
-<!--    <EditText-->
-<!--        android:id="@+id/tenor"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:ems="10"-->
-<!--        android:inputType="number"-->
-<!--        android:textSize="14sp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.894"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintVertical_bias="0.146" />-->
-
-<!--    <Button-->
-<!--        android:id="@+id/btnCalculation"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Calculation"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.058"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintVertical_bias="0.32"-->
-<!--        app:layout_editor_absoluteX="16dp"-->
-<!--        app:layout_editor_absoluteY="226dp" />-->
-
-<!--    <TextView-->
-<!--        android:id="@+id/result"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="0"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.592"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintVertical_bias="0.348"-->
-<!--        app:layout_editor_absoluteX="16dp"-->
-<!--        app:layout_editor_absoluteY="226dp" />-->
-<!--    &lt;!&ndash;</RelativeLayout>&ndash;&gt;-->
-<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent" android:layout_height="wrap_content" >
     <!--
@@ -189,9 +71,11 @@
                     android:text="@string/jumlah_pinjaman_string"
                     />
 
-                <View   android:id="@+id/rectangle_1"
+                <EditText   android:id="@+id/principal"
                     android:background="@drawable/rectangle_1_shape"
                     android:layout_marginStart="25dp"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
                     android:layout_marginEnd="25dp"
                     android:layout_marginTop="75dp"
                     android:layout_width="match_parent"
@@ -207,9 +91,11 @@
                     android:text="@string/lama_pinjaman__bulan__string"
                     />
 
-                <View   android:id="@+id/rectangle_2"
+                <EditText   android:id="@+id/tenor"
                     android:background="@drawable/rectangle_2_shape"
                     android:layout_marginStart="25dp"
+                    android:textColor="@color/black"
+                    android:inputType="number"
                     android:layout_marginEnd="25dp"
                     android:layout_marginTop="149dp"
                     android:layout_width="match_parent"
@@ -225,10 +111,12 @@
                     android:text="@string/bunga_pinjaman_____string"
                     />
 
-                <View   android:id="@+id/rectangle_3"
+                <EditText   android:id="@+id/interestRate"
                     android:background="@drawable/rectangle_3_shape"
                     android:layout_marginStart="25dp"
                     android:layout_marginEnd="25dp"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/black"
                     android:layout_marginTop="223dp"
                     android:layout_width="match_parent"
                     android:layout_height="44dp" />
@@ -249,10 +137,20 @@
                     android:textColor="@color/hitung_kalkulator_kredit_color"
                     android:layout_marginLeft="25dp"
                     android:layout_marginTop="482dp"
-                    android:layout_width="335.4dp"
+                    android:layout_width="195dp"
                     android:layout_height="23.4dp"
-                    android:text="Angsuran Pokok : "
+                    android:text="Principal Instalments : "
                     />
+
+                <TextView
+                    android:id="@+id/installmentPrincipal"
+                    android:textSize="14sp"
+                    android:textColor="@color/hitung_kalkulator_kredit_color"
+                    android:layout_marginLeft="220dp"
+                    android:layout_marginTop="482dp"
+                    android:layout_width="210dp"
+                    android:layout_height="23.4dp"
+                    android:text="0" />
 
                 <TextView android:id="@+id/angsuran_bunga_per_bulan___576_666_67"
                     android:textStyle="bold"
@@ -260,47 +158,58 @@
                     android:textColor="@color/hitung_kalkulator_kredit_color"
                     android:layout_marginLeft="25dp"
                     android:layout_marginTop="511dp"
-                    android:layout_width="321.4dp"
+                    android:layout_width="195dp"
                     android:layout_height="33.4dp"
-                    android:text="Angsuran Bunga :"
+                    android:text="Interest Installments : "
                     />
+                <TextView
+                    android:id="@+id/installmentInterest"
+                    android:textSize="14sp"
+                    android:textColor="@color/hitung_kalkulator_kredit_color"
+                    android:layout_marginLeft="220dp"
+                    android:layout_marginTop="511dp"
+                    android:layout_width="210dp"
+                    android:layout_height="23.4dp"
+                    android:text="0" />
 
                 <TextView
                     android:id="@+id/total_angsuran_per_bulan___5_576_666_67"
-                    android:layout_width="285.4dp"
+                    android:layout_width="195dp"
                     android:layout_height="20.4dp"
-                    android:layout_marginLeft="34dp"
+                    android:layout_marginLeft="23dp"
                     android:layout_marginTop="540dp"
-                    android:text="Total Angsuran / Bulan :"
+                    android:text="Total Installments : "
                     android:textColor="@color/hitung_kalkulator_kredit_color"
                     android:textSize="14sp"
                     android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/totalInstallment"
+                    android:textSize="14sp"
+                    android:textColor="@color/hitung_kalkulator_kredit_color"
+                    android:layout_marginLeft="220dp"
+                    android:layout_marginTop="540dp"
+                    android:layout_width="210dp"
+                    android:layout_height="23.4dp"
+                    android:text="0" />
 
-                <View   android:id="@+id/rectangle_4"
+                <EditText   android:id="@+id/interestType"
                     android:background="@drawable/rectangle_4_shape"
                     android:layout_marginStart="25dp"
                     android:layout_marginEnd="25dp"
+                    android:text="Flat"
+                    android:editable="false"
                     android:layout_marginTop="298dp"
+                    android:textColor="@color/black"
                     android:layout_width="match_parent"
                     android:layout_height="44dp" />
 
-                <View   android:id="@+id/rectangle_5"
+                <Button   android:id="@+id/btnLoanCal"
                     android:background="@drawable/rectangle_5_shape"
                     android:layout_marginStart="43dp"
                     android:layout_marginTop="355dp"
-                    android:layout_width="271dp"
+                    android:layout_width="170dp"
+                    android:text="Simualtion"
                     android:layout_height="44dp" />
-
-                <TextView android:id="@+id/hitung"
-                    android:textStyle="bold"
-                    android:textSize="14sp"
-                    android:textColor="@color/_bg__halaman_utama_ek2_color"
-                    android:layout_marginLeft="156dp"
-                    android:layout_marginTop="368dp"
-                    android:layout_width="61.4dp"
-                    android:layout_height="24.4dp"
-                    android:text="@string/hitung_string"
-                    />
 
             </RelativeLayout>
         </RelativeLayout>

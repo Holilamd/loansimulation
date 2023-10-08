@@ -1,11 +1,11 @@
 <resources>
 
     <style name="Widget.Theme.Loansimulation.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
-        <item name="android:background">@color/black_overlay</item>
+        <item name="android:background">@color/_bg__splah_screen_ek2_color</item>
     </style>
 
     <style name="Widget.Theme.Loansimulation.ButtonBar.Fullscreen" parent="">
-        <item name="android:background">@color/black_overlay</item>
+        <item name="android:background">@color/_bg__splah_screen_ek2_color</item>
         <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>

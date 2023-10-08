@@ -1,17 +1,17 @@
 <resources>
-    <string name="app_name">loansimulation</string>
+    <string name="app_name">Loan Simulation</string>
     <string name="ek_img_content">ExportKit Image</string>
-    <string name="kalkulator_kredit_string">Kalkulator Kredit</string>
-    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="kalkulator_kredit_string">Loan Simulation</string>
+    <string name="title_activity_splash_screen">Loan Simulation</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
 
-    <string name="hitung_kalkulator_kredit_string">Hitung Kalkulator Kredit</string>
-    <string name="hasil_kalkulasi_string">Hasil Kalkulasi</string>
-    <string name="jumlah_pinjaman_string">Jumlah Pinjaman</string>
-    <string name="lama_pinjaman__bulan__string">Lama Pinjaman (bulan)</string>
-    <string name="bunga_pinjaman_____string">Bunga Pinjaman (%)</string>
-    <string name="perhitungan_bunga_string">Perhitungan Bunga</string>
+    <string name="hitung_kalkulator_kredit_string">Simulation Loan</string>
+    <string name="hasil_kalkulasi_string">The calculation results</string>
+    <string name="jumlah_pinjaman_string">Loan Amount</string>
+    <string name="lama_pinjaman__bulan__string">Tenor of Loan (months)</string>
+    <string name="bunga_pinjaman_____string">Loan interest (%)</string>
+    <string name="perhitungan_bunga_string">Loan Interest Type</string>
     <string name="angsuran_pokok_per_bulan___5_000_000_00_string">Angsuran Pokok per Bulan : 5.000.000,00</string>
     <string name="angsuran_bunga_per_bulan___576_666_67_string">Angsuran Bunga per Bulan : 576.666,67</string>
     <string name="total_angsuran_per_bulan___5_576_666_67_string">Total Angsuran per Bulan : 5.576.666,67</string>

@@ -6,7 +6,7 @@ public class LoanRequest {
 
     private BigDecimal principal ;
 
-    private BigDecimal interes_rate;
+    private float interes_rate;
 
     private Integer tenor;
 
@@ -18,11 +18,11 @@ public class LoanRequest {
         this.principal = principal;
     }
 
-    public BigDecimal getInteres_rate() {
+    public float getInteres_rate() {
         return interes_rate;
     }
 
-    public void setInteres_rate(BigDecimal interes_rate) {
+    public void setInteres_rate(float interes_rate) {
         this.interes_rate = interes_rate;
     }
 
