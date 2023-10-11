@@ -9,6 +9,7 @@ public class LoanRequest {
     private float interes_rate;
 
     private Integer tenor;
+    
 
     public BigDecimal getPrincipal() {
         return principal;
